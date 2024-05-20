@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap");
+
+body {
+  text-align: center;
+  background-color: #c7b7a3;
+}
+
+h1,
+h2 {
+  margin: 2px;
+  margin-bottom: 3px;
+  margin-top: 5px;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+p {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+button {
+  border: 1px solid;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  border-radius: 30px;
+  padding: 5px 20px;
+  transition: all 200ms ease-in-out;
+  box-shadow: 5px 5px 14px 3px rgb(238, 247, 255);
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#profile-pic {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin: 5px auto;
+}
+
+.card {
+  background-color: #eadbc8;
+  width: 500px;
+  margin: 10px auto;
+  padding: 20px 5px;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+#icon-list li {
+  display: inline-block;
+}
